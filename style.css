@@ -4,16 +4,18 @@
 body{
     background-color: blue;
 }
-
+input{
+    width: 40%;
+}
 #sect{
     align-content: center;
     border: 1px solid black;
     margin: auto;
-    width: 70vw;
-    height: 70vh;
+    width: 50vw;
+    height: 80vh;
 
     display: grid;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0px;
 }
