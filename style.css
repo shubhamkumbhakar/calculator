@@ -12,10 +12,16 @@ input{
     align-content: center;
     border: 1px solid black;
     margin: auto;
+<<<<<<< HEAD
     width: 40vw;
     height: 50vw;
     padding: 5px;
     background-color: lightyellow;
+=======
+    width: 50vw;
+    height: 60vh;
+
+>>>>>>> c9398b2d782fceaca87169fe55646d30a39dec7f
     display: grid;
     grid-template-rows: 1fr 20px repeat(5, 1fr);
     grid-template-columns: repeat(4, 1fr);
@@ -44,6 +50,7 @@ input{
     text-align: end;
     border: 0px;
     grid-column: 1/-1;
+<<<<<<< HEAD
     background-color: lightyellow;
 }
 #div3{
@@ -56,3 +63,6 @@ input{
     background-color: #4CAF50;
 
 } */
+=======
+}
+>>>>>>> c9398b2d782fceaca87169fe55646d30a39dec7f
